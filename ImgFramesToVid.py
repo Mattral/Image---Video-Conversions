@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import os
-from os.path import isfile, joinpathIn= './images/testing/'
+from os.path import isfile, joinpathIn= './images/testing/' #add pathIn (path of the folder which contains all the images)
 pathOut = 'video.avi'
 fps = 0.5frame_array = []
 files = [f for f in os.listdir(pathIn) if isfile(join(pathIn, f))]#for sorting the file names properly
